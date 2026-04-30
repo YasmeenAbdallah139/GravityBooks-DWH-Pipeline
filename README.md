@@ -1,6 +1,6 @@
 # 📚 Gravity Books — Data Warehouse Project
 
-A full end-to-end Data Warehouse solution for a fictional bookstore chain, **Gravity Books**, built as part of an ITI (Information Technology Institute) lab assignment. The project covers dimensional modeling, ETL pipelines using SSIS, OLAP cube design using SSAS, and business intelligence reporting using Power BI.
+A full end-to-end Data Warehouse solution for a fictional bookstore chain, **Gravity Books**, built as the Final Project of ITI DWH course . The project covers dimensional modeling, ETL pipelines using SSIS, OLAP cube design using SSAS, and business intelligence reporting using Power BI.
 
 ---
 
