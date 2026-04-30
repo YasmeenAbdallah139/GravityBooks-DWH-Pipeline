@@ -17,6 +17,8 @@ README file
 
 ## 🗄️ Data Warehouse Architecture
 
+![Dim_modeling](images/dim_modelling.png)
+
 The DWH is built using a **Galaxy Schema** with the following tables:
 
 ### Dimension Tables
@@ -51,14 +53,20 @@ The ETL solution is built in **SQL Server Integration Services (SSIS)** and hand
 **`Dim_book`**
 - Source → Data Conversion → `Dim_book` destination
 - 11,127 rows loaded
+  
+![Dim_modeling](images/Dim_book.jpg)
 
 **`Dim_author`**
 - Source → Data Conversion → `Dim_author` destination
 - 9,235 rows loaded (includes 5 rows via separate data conversion path)
+  
+![Dim_modeling](images/Dim_author.jpg)
 
 **`Dim_book_author_bridge`**
 - OLE DB Source → `Lookup_on_dimBook` → `Lookup_on_dimAuthor` → `Dim_book_author_bridge`
 - 17,642 rows loaded
+  
+![Dim_modeling](images/Dim_book_author_bridge.jpg)
 
 **`Dim_address`** *(SCD Type 2)*
 - Source → SSC transform → Slowly Changing Dimension wizard
@@ -66,24 +74,33 @@ The ETL solution is built in **SQL Server Integration Services (SSIS)** and hand
 - New Output → Union All → `is_Current` / `st_Date` derived column → `Dim_Address`
 - 3,350 rows
 
+![Dim_modeling](images/Dim_address.jpg)
+
 **`Dim_customer`** *(SCD Type 2)*
 - Source → Data Conversion → SSC → Slowly Changing Dimension
 - Historical Attribute Inserts → Derived Column → OLE DB Command
 - Changing Attribute Updates → OLE DB Command 1
 - Union All → Derived Column 1 → Insert Destination
 - 2,000 rows
+  
+![Dim_modeling](images/Dim_customer.jpg)
 
 **`Dim_cust_address_bridge`**
 - OLE DB Source → `customer_lookup` → `address_lookup` → `Dim_cust_address_bridge`
 - 3,350 rows
+- 
+![Dim_modeling](images/Dim_cust_address.jpg)
 
 **`Dim_order_status`**
 - OLE DB Source → OLE DB Destination
-- 4 rows
+- 6 rows
+![Dim_modeling](images/Dim_order_status.jpg)
 
 **`Dim_shipping`**
 - OLE DB Source → OLE DB Destination
-- 6 rows
+- 4 rows
+
+![Dim_modeling](images/dim_shipping.jpg)
 
 ### Fact ETL Flows
 
@@ -93,6 +110,8 @@ The ETL solution is built in **SQL Server Integration Services (SSIS)** and hand
 - → `Lookup_dim_date` → `lookup_customer` → `lookup_book` → `lookup_shipping_method`
 - → `Fact_sales` destination
 
+![Dim_modeling](images/Fact_order_Sales.png)
+
 **`Fact_order_lifecycle`**
 - `Source_order_lifecycle_joins` (7,544 rows)
 - → Date conversion → `is_complete` / `is_cancelled` derived columns
@@ -100,15 +119,23 @@ The ETL solution is built in **SQL Server Integration Services (SSIS)** and hand
 - → `lookup_customer` → `lookup_shipping_method` → `lookup_order_status`
 - → `Fact_order_lifecycle` destination
 
+  ![Dim_modeling](images/Fact_order_lifecycle.png)
+
 ---
 
 ## 🧊 OLAP Cube (SSAS)
 
 The `gravity_iti_cube` solution builds a multidimensional OLAP cube on top of the DWH using **SQL Server Analysis Services (SSAS)**, enabling slice-and-dice analysis across dimensions such as books, authors, customers, time, and shipping methods.
 
+
+  ![cube](images/datacube.png)
+  ![cube](images/Cube_browser.jpg)
 ---
 
 ## 📊 Power BI Dashboard
+
+![cube](images/Dashboard.png)
+
 
 The `dwh.pbix` file contains a **Gravity Books Dashboard** with the following visuals:
 
