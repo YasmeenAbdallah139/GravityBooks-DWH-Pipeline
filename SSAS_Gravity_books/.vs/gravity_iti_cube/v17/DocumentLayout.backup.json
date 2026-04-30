@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E68835C2-3EE2-CD5C-BF5F-834F52DED649}|gravity_iti_cube\\gravity_iti_cube.dwproj|C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Gravity Books DWH.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E68835C2-3EE2-CD5C-BF5F-834F52DED649}|gravity_iti_cube\\gravity_iti_cube.dwproj|solutionrelative:gravity_iti_cube\\Gravity Books DWH.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68835C2-3EE2-CD5C-BF5F-834F52DED649}|gravity_iti_cube\\gravity_iti_cube.dwproj|C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Gravity Books DWH.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E68835C2-3EE2-CD5C-BF5F-834F52DED649}|gravity_iti_cube\\gravity_iti_cube.dwproj|solutionrelative:gravity_iti_cube\\Gravity Books DWH.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68835C2-3EE2-CD5C-BF5F-834F52DED649}|gravity_iti_cube\\gravity_iti_cube.dwproj|C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Author.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E68835C2-3EE2-CD5C-BF5F-834F52DED649}|gravity_iti_cube\\gravity_iti_cube.dwproj|solutionrelative:gravity_iti_cube\\Author.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68835C2-3EE2-CD5C-BF5F-834F52DED649}|gravity_iti_cube\\gravity_iti_cube.dwproj|C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Dim Order Status.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E68835C2-3EE2-CD5C-BF5F-834F52DED649}|gravity_iti_cube\\gravity_iti_cube.dwproj|solutionrelative:gravity_iti_cube\\Dim Order Status.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gravity Books DWH.dsv [Design]",
+              "DocumentMoniker": "C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Gravity Books DWH.dsv",
+              "RelativeDocumentMoniker": "gravity_iti_cube\\Gravity Books DWH.dsv",
+              "ToolTip": "C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Gravity Books DWH.dsv [Design]",
+              "RelativeToolTip": "gravity_iti_cube\\Gravity Books DWH.dsv [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAWYSURBVFhH7ZhZbJRVFMd/55vpLO1AW0pLWZQKZa1FUmhZBIEIGqTiEhGMRtCE5QETDYQYCaIYESRRCMElgJHEJRFCogEf5MEQQItsYTEUoRSCbG1gSqHttJ2Z48OdaWcGKF9paV/8JyeT\u002Bb47d37fued/7p0RInKNX0DK7A0QZjHCp9Hr7akkBxR1l99zu/Da1fOnLv84Z0jikHipqhV3QQAr8vogAvC5meBxscHXa1Du1JU7xZuWFYcQJxGJB\u002BwAWYLlcTE9PZlVfYum5j/\u002B1nrLm94jcViTOhwQQATL6\u002BKZVA/LcifMyJ\u002BwaKOI5UgcBp0FiMmk25PEtFQvyx4aVTxgxteHE4dAZwICYll4vEm8kJHMat/D\u002Bd1f3ngMsZxxgzoTEMxyi8dFcZaPTak5jw58esV2y9stu\u002Bl\u002BhwOGFULh\u002BAiHcbicFKd6Wdm7qDi/YP46yx1xd1NlOvqOxDV8GsBYYErMnO0mAVTBH4CLNbeFXKkl53IN7rruQ/\u002B6VrK1Jui/1LEZDCmUVcOBijvH4Uo8pdXknquha0PIfKZDAQEUCN8lQiBhxdKmtt7OgBpZQk280Qa1GVDVFD6A24KUJPA6wCER2DbStgkwhAEqzII3h8CykbByNHxUBO8Mg2k50DPFpDac\u002BGGbum/AsMLwDFgzBr6ZBEsLhOdyhNE9hEm9hXl5wvpx8P1kA5/muj/IVgMq4HLAqwPhh8nCk31g3xVYuEd59ldl6k5l2k5l5m/KuuOQZMHyQmHNaGFg15jqt6nWASr4nDB7ILxXIJyuUhbugUX7YMd5KL8J1\u002Bvgci0crIS1R\u002BGVXfDVCaUgS1k6AgakJk7asuwDKjgsmNQH3hgMByuVJSWw6wLUhowpLAGJvEbfX7gF647DFydgcLowL888pF3v2AcEeibDzP7grxfWHIHTNwxQdNlCkW0s9sstgZpG2F4GO87BU31MWditR/uAAiMyIS9d2HYWTvnj68kpMLEXFOfcniEBqhpgW7lSGYA5g6GLzSzaBhQLxmTDtQCUXFWCMbOHFfIzYMMTwuaJwmdjhWEZBho1hCJQVgV7LysFmcKQtOb\u002B2ZJsASqQbJkaKr8FV2sTR0A3D/iSwO2E5/vB\u002BnHC7EGQ6W3OVEPYmMcpkNctYYK7yBYggNdpelllLQSCzT\u002BCYhW95LRMRt8tEObnGaAo5KUak7lePsG6wxyJsg0ogGUZI0RW7Z5K90DfLhI3NmoiR4y5WpJtwEAIahsh1W2a773KpyYI284oqw4pjTHHk3S3cbY/oLacbAtQgLoglFcrD/tMvSUS1gfNQ9QH4aRf\u002BeCAsvhPOFMdgVOTtfwMQQRK/fYOErYAAYIK\u002ByugdwoMy4ivHwH\u002B9sO3pcqWU8rbe2FLKdxsNO4l8jw9U2B8Lyi7Acevm0zeS7YBUdh/FSoDyouPQJa3udmKwPV6WHsMVhwyp\u002BNQzLKqgtsBU/rA4DT46YxSEWjnGgQor4afy\u002BGxTJg7FLwxtSgYd9cGm7MWlSUwqge8Pkgo9Stby\u002BLvtyT7gGIAtp\u002BF3ReVuUOF9wuhmyvG2QnOjB5mx2bDh4Umi2uPmT5qJ3u0ChADWVEHq4/AL\u002BeUWbnCpknCS/2gr880aq8Dkp2Q4YGCTFheCF9OMMb45KCy/4rNHhVR01DX\u002BAWkzNkAymJo\u002Be\u002B3sJoeN6s/TM\u002BB7BShsg7O3VSq6815MTsZcroKDqCkQvnulNlFQvdyrrIbZX71x6P\u002BCZ0/2MoMRmQJVAVg80lY9Ad8flQ5dk3pkgQD0ozTqxpgW5mypERZfsAYLHb/tqv7ymBUGtlSkgQ8Tkhxmm0urM2GqY/sHLZXtT0yGFXUFI1huNkAV2rh31tmv71ebxo3rYG7g9oEGJVEjlN3iraqXQAfpP4HbKviAEXFBCKdFNHvbmL6D4bp8C8Jney3AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-04-28T14:03:10.213Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gravity Books DWH.cube [Design]",
+              "DocumentMoniker": "C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Gravity Books DWH.cube",
+              "RelativeDocumentMoniker": "gravity_iti_cube\\Gravity Books DWH.cube",
+              "ToolTip": "C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Gravity Books DWH.cube [Design]*",
+              "RelativeToolTip": "gravity_iti_cube\\Gravity Books DWH.cube [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-28T14:44:10.376Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Author.dim [Design]",
+              "DocumentMoniker": "C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Author.dim",
+              "RelativeDocumentMoniker": "gravity_iti_cube\\Author.dim",
+              "ToolTip": "C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Author.dim [Design]",
+              "RelativeToolTip": "gravity_iti_cube\\Author.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-28T14:33:03.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Order Status.dim [Design]",
+              "DocumentMoniker": "C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Dim Order Status.dim",
+              "RelativeDocumentMoniker": "gravity_iti_cube\\Dim Order Status.dim",
+              "ToolTip": "C:\\iti\\DWH_SSIS_Proj\\gravity_iti_cube\\gravity_iti_cube\\Dim Order Status.dim [Design]",
+              "RelativeToolTip": "gravity_iti_cube\\Dim Order Status.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-28T14:32:37.553Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

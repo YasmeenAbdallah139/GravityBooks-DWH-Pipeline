@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "gravity_iti_cube", "gravity_iti_cube\gravity_iti_cube.dwproj", "{E68835C2-3EE2-CD5C-BF5F-834F52DED649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E68835C2-3EE2-CD5C-BF5F-834F52DED649}.Development|Default.ActiveCfg = Development
+		{E68835C2-3EE2-CD5C-BF5F-834F52DED649}.Development|Default.Build.0 = Development
+		{E68835C2-3EE2-CD5C-BF5F-834F52DED649}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E64A205B-AEF0-4F12-BF3B-C6421EC40ECC}
+	EndGlobalSection
+EndGlobal

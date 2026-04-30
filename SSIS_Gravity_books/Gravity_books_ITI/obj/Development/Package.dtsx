@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/26/2026 5:07:51 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="HUAWEI"
+  DTS:CreatorName="HUAWEI\HUAWEI"
+  DTS:DTSID="{2FF218D3-8922-4C49-988A-4B87D134075D}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.2"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{ACB74026-DB92-48A3-A94B-207E4ACA067C}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>
